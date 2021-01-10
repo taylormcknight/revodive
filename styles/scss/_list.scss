@@ -1,0 +1,14 @@
+.checklist {
+	margin: 1rem 0;
+	li {
+		text-align: left;
+		margin-bottom: .5rem;	
+		&:before {
+			color: #2ecb70;
+		    content: '\e918';
+		    left: 0;
+		    position: absolute;
+		    top: 3px;
+		}
+	}
+}

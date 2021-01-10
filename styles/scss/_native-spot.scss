@@ -1,0 +1,34 @@
+.native-ad {
+	display: flex;
+	background: #1D222F;
+	color: #fff;
+	border-radius: 6px;
+	margin: 3rem 0;
+	padding: 1.5rem;
+	.native-ad-copy {
+		display: inline-block;
+	}
+	.ad-details {
+		color: #ccc;
+	}
+	h1 {
+		margin: 0;
+		font-size: 1.875rem;	
+	}
+	.logo {
+		max-height: 30px;	
+		margin-bottom: 1rem;
+		float:right;
+	}
+	img {
+		vertical-align: top;
+		display: inline-block;
+		max-width: 300px;
+		max-height: 300px;
+		margin-right: 1rem;
+	}
+	p {
+		margin-top: .675rem;
+		font-size: 1.25rem;		
+	}
+}

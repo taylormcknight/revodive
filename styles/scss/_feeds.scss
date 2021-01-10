@@ -1,0 +1,154 @@
+.feed {
+	margin: 0 auto;
+	grid-column-start: span 12;
+	img {
+		display: block;
+	}
+	.label {
+		color: #949BAD;
+		text-transform: uppercase;
+		font-size: .875rem;
+	}
+	p {
+		font-size: 1rem;
+		line-height: 1.8;
+		margin: 0;
+		color: #44464f;
+	}
+	li {
+		display: grid;
+		grid-column: span 12;
+		grid-gap: 2rem;
+		margin: 0;
+		padding: 1.5rem 0;
+		border-bottom: solid 1px #c3cace;
+		&:last-of-type {
+			border: none;
+		}
+		&:first-of-type {
+			padding-top: 0;
+		}
+	}
+	&.article-feed {
+		article {
+			list-style-type: none;
+			grid-column-start: span 12;
+			transition: all .2s ease;
+			width: 100%;
+		}
+		.external-link-icon {
+			margin-left: .25rem;
+			height: 12px;
+		    width: 12px;
+		    display: inline-block;
+		}
+		figure {
+			margin-top: 1.5rem;
+			img {
+				border: solid 1px #ccc;
+				border-radius: 6px;
+			}
+			a {
+				img {
+					transition-timing-function: ease-in;
+					transition: .25s;
+					&:hover {
+					    -webkit-transform: translateY(-2px);
+					    transform: translateY(-2px);
+					}
+				}
+			}
+		}
+		figcaption {
+			margin: 0;
+		}
+		.byline {
+			margin: 1rem 0 .5rem 0;
+			color: #44464f;
+			& a {
+				color: #949BAD;
+				&:hover {
+					color: #007AFF;
+				}
+			}
+		}
+		.author {
+			font-weight: 600;
+			display: block;
+			line-height: 1.3;
+		}
+		.author-handle {
+			display: block;
+			line-height: 1.3;
+			a {
+				color: #949BAD;
+			}
+		}
+		.author-headshot {
+			float: left;
+			border-radius: 50%;
+			height: 35px;
+			display: inline-block;
+			vertical-align: middle;
+			margin-right: .5rem;
+		}
+	}
+}
+// medium screen size up
+@media (min-width: 600px ) {
+	.feed {
+		h3 {
+			font-size: 2rem;
+		}
+		&.article-feed {
+			figure {
+			}
+			article {
+				display: grid;
+				grid-column: span 12;
+				grid-template-columns: repeat(12, 1fr);
+				figcaption {
+					grid-column: span 12;
+				}
+				figure {
+					margin: 0;
+					grid-column: span 12;
+				}
+			}
+		}
+	}
+}
+@media (min-width: 800px ) {
+	.feed {
+		&.tiles {
+			grid-gap: 3rem;
+			img {
+				width: 100%;
+				height: auto;
+			}
+			article, .figure-wrapper {
+				grid-column: span 6;
+			}
+		}
+		&.article-feed {
+			article, .figure-wrapper {
+				grid-gap: 2rem;
+				figcaption {
+					grid-column: span 7;
+				}
+				figure {
+					grid-column: span 5;
+				}
+			}
+		}
+		&.dive-log {
+			grid-gap: 2rem;
+			figcaption {
+				grid-column: span 10;
+			}
+			figure {
+				grid-column: span 2;
+			}
+		}
+	}
+}

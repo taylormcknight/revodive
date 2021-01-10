@@ -1,0 +1,139 @@
+.log-in {
+	float: right;
+	h1 {
+		font-size: 3rem;
+		margin-bottom: 3rem;
+	}
+	li {
+		font-size: 1.5rem;
+		font-weight: 400;
+	    margin-bottom: 1.25rem;
+	}
+	input.text-input {
+		width: 250px;
+		display: inline-block;
+		background: #fff;
+		border: none;
+		padding: .5rem 1rem;
+	}
+	input.button {
+		background: #000;
+		display: inline-block;
+		width: auto;
+		border: none;
+		padding: .5rem 1rem;
+	}
+	.help-link {
+		margin-top: 0;
+		float: right;
+		a {
+			color: #fff;
+		}
+	}
+	.subtitle {
+		font-weight: 600;
+		display: block;
+	}
+	.sign-up {
+		margin-top: 5rem;
+	}
+	.why-join {
+		img {
+			width: 35px;
+			height: 35px;
+			margin-right: 1rem;
+			vertical-align: middle;
+		}
+		li {
+			margin-bottom: 2rem;
+		    font-size:1.125rem;
+			font-weight:400;
+		}
+	}
+}
+
+.hero-section {
+	color: #fff;
+	text-shadow: .5px .5px #000;
+}
+
+/*  features section
+.features-section {
+	position: relative;
+	padding: 2rem 1rem;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-gap: 1rem;
+	.feature-description, .feature-img-wrapper {
+		grid-column: span 12;
+	}
+	&.left-img {
+		div:nth-of-type(1) {
+	    	order: 2;
+	  	}
+		div:nth-of-type(2) {
+	    	order: 1;
+	  	}
+	}
+	a {
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	.read-now {
+		color: #007fcc;
+		font-weight: 600; 
+	}
+	img {
+		margin-bottom: .5rem;
+	}
+}
+*/
+
+@media screen and (min-width: 40em) {
+	#mc_embed_signup {
+		input.wave-email {
+			font-size: .875rem;
+			width: 100%;
+		}
+	}
+	.hero-section {
+		clear: both;
+		background: none;
+		p, li {
+			font-size:1.5rem;
+		}
+	}
+	.title-section {
+    	padding: 10rem 0 0 0;
+	}
+	.features-section {
+		grid-gap: 2rem;
+		padding: 2rem 5rem;
+		.feature-description, .feature-img-wrapper {
+			grid-column: span 6;
+			margin-bottom: 2.5rem;
+			padding: 2rem 0;
+		}
+		h2 {
+			font-size: 2.5rem;
+			line-height: 1.3;
+			margin-top: 0;
+		}
+		p, li {
+			font-size: 1.375rem;
+		}
+		.footnote {
+			font-size: 1.125rem;
+		}
+		&.left-img {
+			div:nth-of-type(1) {
+		    	order: 1;
+		  	}
+			div:nth-of-type(2) {
+		    	order: 2;
+		  	}
+		}
+	}
+}

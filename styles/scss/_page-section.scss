@@ -1,0 +1,19 @@
+.page-section {
+	margin: 1rem auto 2rem auto;
+	max-width: 1400px;
+	&.short {
+		max-width: 800px;
+	}
+	&__title-wrapper {
+		h2 {
+			margin: 0 0 .25rem 0;
+		}
+		p {
+			margin: 0;
+		}
+		.title-cta {
+			font-weight: 600;
+			float: right;
+		}
+	}	
+}

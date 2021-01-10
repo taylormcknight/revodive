@@ -1,0 +1,28 @@
+.table-standard {
+	text-align: left;
+	border: solid 1px #DBD7D7;
+	width: 100%;
+	font-size: .875rem;
+	border-collapse: collapse;
+	margin: 0 0 1rem 0;
+	th {
+		padding: 1rem;
+		background: #F9F9F9;
+		color: #9B9B9B;
+		text-transform: uppercase;
+		font-weight: 600;
+	}
+	tr {
+		border-bottom: solid 1px #DBD7D7;
+		&:last-of-type {
+			border-bottom: none;
+		}
+	}
+	td {
+		padding: 1rem;
+	}
+	.total {
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+}

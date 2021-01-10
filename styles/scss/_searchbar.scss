@@ -1,0 +1,54 @@
+/* search bar */
+.search-wrapper {
+	background-image: url(/media/wes-hicks-jr7bl8PVOfw-unsplash.jpg);
+	background-size: cover;
+	box-sizing: border-box;
+	color: #fff;
+	padding: 4rem 1.5rem 0 1.5rem;
+	height: 40vh;
+	text-shadow: .5px .5px #000;
+	header {
+		text-align: center;
+		h1 {
+			font-size: 2.25rem;
+			margin-bottom: 2rem;
+		}
+		.switch {
+			display: block;
+			margin: 1.5rem auto 0 auto;
+		}
+	}
+	h3 {
+		font-size: 1.25rem;
+		margin: 0;
+	}
+}
+.search {
+	display: block;
+	margin: 1rem auto 1.5rem auto;
+	text-align: center;
+	input {
+		background-image: url(/media/search-icon.svg);
+		background-position: 10px center;
+	    background-repeat: no-repeat;
+	    background-size: 24px;
+	    border: solid 1px #bec3cd;
+	    border-radius: 6px;
+	    color: #1D222F;
+	    font-size: 1rem;
+	    font-weight: 600;
+		min-width: 50%;
+		max-width: 500px;
+	    outline: 0;
+	    padding: .875rem .875rem .875rem 3rem;
+		&::placeholder {
+			color: #949BAD;
+		}
+		&::-webkit-search-decoration,
+		&::-webkit-search-cancel-button,
+		&::-webkit-search-results-button,
+		&::-webkit-search-results-decoration {
+			-webkit-appearance:none;
+		}
+	}
+}

@@ -1,0 +1,26 @@
+.breadcrumbs {
+	ol {
+		list-style-type: none;
+		display: flex;
+		margin: 0;
+	}
+	li {
+		font-size: .875rem;
+		text-transform: capitalize;
+		a {
+			border: none;
+		}
+		&::after {
+			content: "/";
+			margin: .5rem;
+		}
+		&:last-of-type::after {
+			content: "";
+		}
+		&:last-of-type {
+			a {
+				color: #0085C6;
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+.verified-label {
+	display: block;
+	text-transform: uppercase;
+	color: #a9afbd;
+	font-size: .675rem;
+	margin-bottom: .5rem;
+	&:before {
+		content: "";
+	    display: block;
+	    background: url("/media/mini-logo.svg") no-repeat;
+	    background-size: 12px 12px;
+	    width: 12px;
+	    height: 12px;
+	    float: left;
+	    vertical-align: bottom;
+	    margin: 0 .25rem 0 0;
+	}
+}
+.label {
+	&.sponsored {
+		color: yellow;
+	}
+}

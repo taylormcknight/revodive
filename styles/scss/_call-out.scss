@@ -1,0 +1,12 @@
+.call-out {
+	padding: 2rem 0;
+	h2 {
+		margin-top: 0;
+	}
+}
+
+@media screen and (min-width: 40em) {
+	.call-out {
+		background: #f6f7f8;
+	}
+}

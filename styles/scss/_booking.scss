@@ -1,0 +1,53 @@
+.bookings {
+	margin: 0 0 2rem 0;
+	display: flex;
+	justify-content: space-evenly;
+	padding: 2rem 0;
+	background: #f5f6f7;
+	.vendor {
+		margin-right: 1.5rem;
+	}
+	.button {
+		margin-top: .5rem;
+	}
+	.cta {
+		text-align: center;
+		text-decoration: underline;
+		.button {
+			margin-top: 1.5rem;
+			text-decoration: none;
+		}
+	}
+	h3 {
+		font-weight: 600;
+		margin-bottom: 0;
+	}
+	h4 {
+		font-size: 1.125rem;
+		font-weight: 600;
+		margin: 0;
+	}
+	ul {
+		margin: .5rem 0 0 0;
+	}
+	li, p {
+		font-size: .875rem;
+	}
+	li {
+		color: #949BAD;
+		margin: 0 0 .125rem 0;
+	}
+	figure {
+		display: inline-block;
+		margin: 0 .5rem 0 0;
+		vertical-align: top;
+	}
+	figure img {
+		height: 120px;
+		width: 120px;
+		border-radius: 6px;
+	}
+	figcaption {
+		display: inline-block;
+	}
+}

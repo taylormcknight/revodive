@@ -1,0 +1,116 @@
+// buttons
+.button-group {
+	margin-top: 2rem;
+}
+input[type = "submit"] {
+	color: #0000ff;
+	-webkit-appearance: none;
+}
+button {
+	cursor: pointer;
+}
+button {
+	&.link {
+		text-decoration: underline;
+		background: none;
+		border: none;
+		&.small {
+			font-size: 1rem;
+		}
+	}
+}
+.button, a.button {
+	cursor: pointer;
+	font-size: 1rem;
+	padding: .5rem 2rem;
+	width: initial;
+	background: none;
+	color: #0085C6;
+	border: solid 1px #0085C6;
+	border-radius: 4px;
+	margin: 0;
+	display: inline-block;
+	font-family: proxima nova;
+	font-weight: 600;
+	text-decoration: none;
+	white-space: normal;
+	-webkit-transition: box-shadow 0.3s cubic-bezier(0.2,0.6,0.2,1),background-color 0.25s ease-out,color 0.25s ease-out;
+	&:hover {
+		color: #fff;
+		cursor: pointer;
+		background: #007AFF;
+	}
+	&.inactive {
+		border: #ccc;
+		background: #f5f6f7;
+		color: #ccc;
+		&:hover {
+			background: #f5f6f7;
+			color: #ccc;
+		}
+	}
+	&.filter {
+		border: solid 1px #ccc;
+		color: #000;
+		&:hover {
+			border-color: #000;
+			background: none;
+			color: #000;
+		}
+	}
+	&.secondary {
+		background: #f5f7f8;
+		border-color: #ccc;
+		color: #000;
+		&:hover {
+			background: #fff;
+			cursor: pointer;
+			box-shadow: 0 3px 3px 0 rgba(0,0,0,0.18), 0 1px 7px 0 rgba(0,0,0,0.13), 0 3px 1px -1px rgba(0,0,0,0.23);
+		}
+	}
+	&.primary {
+		background: #0085C6;
+		color: #fff;
+		&:hover {
+			box-shadow: 0 3px 3px 0 rgba(0,0,0,0.18), 0 1px 7px 0 rgba(0,0,0,0.13), 0 3px 1px -1px rgba(0,0,0,0.23);
+		}
+	}
+	&.sponsored {
+		background: yellow;
+		color: black;
+		border: none;
+	}
+	&.selected-filter {
+		color: #949BAD;
+		border: solid 1px #949BAD;
+		padding: .5rem 1.5rem;
+		&:hover {
+			background: none;
+		}
+	}
+	&.with-icon {
+		img {
+			height: 15px;
+			vertical-align: middle;
+		}
+	}
+	&.left-icon {
+		img {
+			margin-right: .5rem;
+		}
+	}
+	&.right-icon {
+		img {
+			margin-left: .5rem;
+		}
+	}
+	&.small {
+		font-size: .875rem;
+		padding: .5rem 1rem;
+	}
+	&.full-width {
+		display: block;
+		max-width: 100%;
+		text-align: center;
+	}
+}

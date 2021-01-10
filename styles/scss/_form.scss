@@ -1,0 +1,28 @@
+// signup form
+form {
+	input.button {
+		display: inline-block;
+	}
+	input.text-input::placeholder {
+		color: #3D414C;
+		white-space: normal;
+		font-family: Proxima Nova;
+		font-size: 1rem;
+	}
+	input.text-input {
+		box-sizing: border-box;
+		padding: .875rem;
+		font-size: 1rem;
+		display: block;
+		width: 100%;
+		background: none;
+		border: solid 1px #ccc;
+		border-radius: 4px;
+		color: #000;
+		margin: 0 0 1rem 0;
+	}
+	label {
+		display: block;
+		margin-bottom: .25rem;
+	}
+}

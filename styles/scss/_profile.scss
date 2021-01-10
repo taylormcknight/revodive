@@ -1,0 +1,133 @@
+.profile {
+	/* overflow-y: scroll;
+	position: fixed;*/
+	box-sizing: border-box;
+	margin: 1rem 0 2rem 0;
+	h2 {
+		margin: 2rem 0 .5rem 0;
+		font-size: 1.25rem;
+		font-weight: 600;
+	}
+	h3 {
+		margin: 2rem 0 .5rem 0;
+		font-weight: 700;
+		font-size: 1rem;
+	}
+	p, li {
+		color: #666;
+		margin: 0 0 .5rem 0;
+		line-height: 1.3;
+		font-size: 1rem;
+	}
+	ul {
+		margin: 0;
+	}
+	&.signup {
+		background: #fff;
+		padding: 1.25rem;
+	}
+	.circle-count {
+		font-size: 2rem;
+		font-weight: 100;
+		& a {
+			color: #007AFF;
+			text-decoration: none;
+		}
+	}
+	a {
+		color: #a9afbd;
+		text-decoration: underline;
+	}
+	.name {
+		margin-top: .25rem;
+		font-size: 1rem;
+		display:block;
+		font-weight: 600;
+	}
+	.handle {
+		display: block;
+		margin-top: .25rem;
+		font-size: 1rem;
+		font-weight: 100;
+	}
+	hr {
+		display: block;
+		width: 25%;
+		margin: 1rem 0;
+	}
+	.meta-info {
+		li {
+			color: #666;
+			margin-bottom: .5rem;
+			&:last-of-type {
+				margin: 0;
+			}
+		}
+	}
+	.location {
+		&:before {
+			content: "";
+		    display: block;
+		    background: url("/media/icons/ui/location-secondary.svg") no-repeat;
+		    background-size: 14px 14px;
+		    width: 15px;
+		    height: 15px;
+		    float: left;
+		    vertical-align: middle;
+		    margin: 0 .25rem 0 0;
+		}
+	}
+	.offsite-url {
+		color: #007AFF;
+		&:before {
+			content: "";
+		    display: block;
+		    background: url("/media/icons/ui/offsite-link-secondary.svg") no-repeat;
+		    background-size: 14px 14px;
+		    width: 15px;
+		    height: 15px;
+		    float: left;
+		    vertical-align: middle;
+		    margin: 0 .25rem 0 0;
+		}
+	}
+	.date {
+		&:before {
+			content: "";
+		    display: block;
+		    background: url("/media/icons/ui/date-secondary.svg") no-repeat;
+		    background-size: 14px 14px;
+		    width: 15px;
+		    height: 15px;
+		    float: left;
+		    vertical-align: middle;
+		    margin: 0 .25rem 0 0;
+		}
+	}
+}
+.profile-img {
+	text-align: center;
+	display: block;
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	border: solid 2px #fff;
+}
+.profile-media {
+	display: flex;
+	img, video {
+		height: 300px;
+		width: auto;
+	}
+}
+.profile-info {
+	img {
+		text-align: center;
+		display: block;
+		margin: 0 0 1rem 0;
+		width: 75px;
+		height: 75px;
+		border-radius: 50%;
+		border: solid 2px #fff;
+	}
+}

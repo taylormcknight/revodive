@@ -1,0 +1,26 @@
+.page-header {
+	max-width: 1400px;
+	margin: 0 auto 3rem auto;
+	h1 {
+		margin-bottom: .5rem;
+	}
+	.sub-title {
+		font-size: 1.5rem;
+		margin: 0;
+		color: #425466;
+		line-height: 1.5;
+	}
+	&.wide {
+		max-width: 1024px;
+	}
+}
+
+@media screen and (min-width: 40em) {
+	.page-header {
+		padding: 0;
+		margin: 2rem auto 4rem auto;
+	}
+	.sub-title {
+		font-size: 1.675rem;
+	}
+}

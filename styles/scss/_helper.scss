@@ -1,0 +1,27 @@
+.show {
+	display:block;
+}
+.desktop-only {
+	display: none;
+}
+.hide {
+	display: none;
+}
+.subtle {
+	font-weight: 100;
+}
+.overlaid-content {
+    z-index: 1;
+}
+.clear-fix {
+	clear: both;
+}
+
+@media screen and (min-width: 40em) {
+	.mobile-only {
+		display: none;
+	}
+	.desktop-only {
+		display: initial;
+	}
+}

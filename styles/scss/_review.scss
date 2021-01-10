@@ -1,0 +1,41 @@
+.review {
+	font-size: 1.25rem;
+	border-bottom: solid 1px #e9ebee;
+	padding: 1rem 0;
+	.name {
+		font-weight: 600;
+	}
+	&:last-of-type {
+		border-bottom: none;
+		padding-bottom: 0;
+	}
+	p {
+		margin: 1rem 0 0 0;
+	}
+}
+.reviewer-wrapper {
+	display: flex;
+	.profile-img {
+		width: 45px;
+		height: 45px;
+		margin-right: .5rem;
+	}
+}
+.reviewer-data {
+	font-size: 1rem;
+}
+.reviews {
+	margin: 0;
+	.rating {
+		display: flex;
+		background: #efefef;
+		padding: 1rem;
+		font-size: 2rem;
+		font-weight: 800;
+		img {
+			height: 35px;
+			width: 35px;
+			margin-right: 1rem;
+		}
+	}
+}

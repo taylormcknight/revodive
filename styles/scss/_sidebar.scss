@@ -1,0 +1,35 @@
+aside {
+	border-right: solid 1px #e9ebee;
+	h3 {
+		margin-top: 2rem;
+		font-size: 1.5rem;
+	}
+	li {
+		margin-bottom: 1.5rem;
+	}
+}
+.user-info-profile {
+	img {
+		height: 30px;
+	    width: 30px;
+	    border-radius: 50%;
+	    vertical-align: bottom;
+	}
+	.name {
+		font-size: 1rem;
+	    font-weight: 600;
+	    margin: 0;
+	    display: inline-block;
+	}
+	.handle {
+		display: block;
+		color: #949BAD;
+	}
+	hr {
+		width: 80px;
+	    margin: 1rem 0 0 0;
+	    border: 0;
+	    height: 1px;
+	    background: #fff;
+	}
+}
