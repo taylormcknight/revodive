@@ -60,7 +60,18 @@ const springs = [
 ];
 
 export default (req, res) => {
-  res.statusCode = 200
-  res.json(springs)
+  // 1. Get the slug
+  const { slug } = req.query;
+  // 2. Filter for the Spring by slug
+  const springBySlug = springs.filter((spring) => spring.slug === slug);
+  const spring = springBySlug.length > 0 ? springBySlug : springs;
+
+  // console.clear();
+  // console.log({ currentSpring });
+  // console.log({ slug: req.query });
+
+  // 3. Respond with the filtered Spring if available/ an empty array if not
+  res.statusCode = 200;
+  res.json(spring);
 }
 
