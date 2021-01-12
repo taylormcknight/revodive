@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+@font-face {
+	font-family: 'EmojiSymbols';
+	src:	url('../fonts/EmojiSymbols-Regular.woff') format('woff'),
+}
+
 /* universal */
 @import "normalize";
 @import "global";
