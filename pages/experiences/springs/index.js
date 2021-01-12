@@ -10,12 +10,13 @@ function Springs({ springs }) {
         title="Springs"
         subtitle="Freedive with the world's most amazing marine life"
     >
-    <ImageGrid gridsize="grid-3">
+    <ImageGrid gridsize="grid-4">
         {springs.map((spring) => (
             <CardOverlay 
                 key={ spring.id }
                 image={ spring.image }
                 title={ spring.name }
+                description={spring.city + ", " + spring.state}
                 url={`/experiences/springs/${spring.slug}`}
             />
         ))}
