@@ -43,12 +43,17 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const res = await fetch('http://localhost:3000/api/experiences/springs?slug=${params.slug');
-  const spring = await res.json();
+  const res = await fetch(`http://localhost:3000/api/experiences/springs?slug=${params.slug}`);
+  const [spring] = await res.json();
+
+  // console.clear();
+  // console.log({ params });
+  // console.log(spring);
+  // springs.map((spring) => console.log({ name: spring.name }));
 
   return {
     props: {
-      spring: spring[0]
+      spring
     },
   };
 }
