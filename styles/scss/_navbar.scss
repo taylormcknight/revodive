@@ -4,37 +4,40 @@
 }
 nav {
 	box-sizing: border-box;
-	display: flex;
 	padding: .875rem 1rem;
-	max-width: 1400px;
+	display: flex;
 	margin: 0 auto;
 	logo {
-		box-sizing: border-box;
-		display: inline-block;
-		vertical-align: middle;
-		img {
-			max-height: 40px;
+		margin-top: .25rem;
+		a {
+			border: none;
 		}
+		font-size: 1.5rem;
+		font-weight: 700;
+		vertical-align: bottom;
 	}
-	>ul {
+	ul {
 		list-style-type: none;
 		display: flex;
+		flex-wrap: wrap;
 		font-weight: 600;
 		line-height: 30px;
-		margin: 0 0 0 auto;
+		margin: 0rem 0 0 auto;
     	>li {
+    		margin-right: .5rem;
     		font-size: .875rem;
-    		margin: 0;
     		&:last-of-type {
     			margin: 0;
     		}
-    		>a {
+    		>a, #profile-button {
+    			font-weight: 600;
+    			padding: 0.5rem 1rem;
+    			display: block;
     			border: none;
-    			display: inline-block;
-	    		padding: .5rem;
 	    		border-radius: 20px;
 	    		&:hover {
 		    		background: #f5f6f7;
+		    		cursor: pointer;
 		    	}
 		    	&.active {
 			    	background: #f5f6f7;
@@ -42,22 +45,17 @@ nav {
 					color: #007AFF;
 		    	}
 	    	}
+	    	.button {
+	    		padding: .5rem 1rem;
+	    	}
     	}
     }
 }
 @media screen and (min-width: 40em) {
 	nav {
-		padding: .875rem 0;
-		logo {
-			img {
-				height: 50px;
-				margin-top: 4px;
-			}
-		}
+		padding: .875rem 2rem;
 		>ul {
 			>li {
-				font-size: 1rem;
-				margin-right: 1.25rem;
 				>a {
 		    		padding: .5rem 1rem;
 		    	}

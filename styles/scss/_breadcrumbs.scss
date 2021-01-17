@@ -3,6 +3,9 @@
 		list-style-type: none;
 		display: flex;
 		margin: 0;
+		white-space: nowrap;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
 	}
 	li {
 		font-size: .875rem;

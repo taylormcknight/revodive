@@ -1,23 +1,36 @@
 .verified-label {
 	display: block;
 	text-transform: uppercase;
-	color: #a9afbd;
+	color: rgb(27, 149, 224);
+	font-weight: 600;
 	font-size: .675rem;
-	margin-bottom: .5rem;
-	&:before {
-		content: "";
-	    display: block;
-	    background: url("/media/mini-logo.svg") no-repeat;
-	    background-size: 12px 12px;
-	    width: 12px;
-	    height: 12px;
-	    float: left;
-	    vertical-align: bottom;
-	    margin: 0 .25rem 0 0;
-	}
+	margin: .5rem 0 .5rem 0;
 }
 .label {
+	font-size: 1rem;
 	&.sponsored {
 		color: yellow;
+	}
+	&__subtle {
+		color: #617b96;
+	}
+	&__secondary {
+		font-size: .875rem;
+		color: #425466;
+	}
+	&__strong {
+		font-weight: 600;
+	}
+	&__verified {
+		&:after {
+			margin-left: .25rem;
+			display: inline-block;
+			content: ' ';
+			background-image: url('/icons/verified.svg');
+			background-size: 21px 21px;
+			height: 21px;
+			width: 21px;
+			vertical-align: middle;
+		}
 	}
 }

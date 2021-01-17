@@ -1,0 +1,75 @@
+.user-media {
+	&:hover {
+		&:after {
+			content: "";
+			position: absolute;
+			top:0;
+			left:0;
+			height:100%;
+			width:100%;
+			background: rgba(0,0,0,0.4);
+			border-radius: 6px;
+			z-index: 1;
+		}
+	}
+}
+/*.video-wrapper {
+	&:hover {
+		&:after {
+			font-size: 1.5rem;
+			content: "❤️";
+			font-family: 'EmojiSymbols';
+			color: #fff;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			z-index: 1;
+		}
+	}
+}*/
+.photo-wrapper {
+	&:hover {
+		&:after {
+			font-size: 1.5rem;
+			content: "❤️";
+			font-family: 'EmojiSymbols';
+			color: #fff;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			z-index: 1;
+		}
+	}
+}
+.video {
+	position: relative;
+	&:after {
+		font-size: 2rem;
+		content: "📹";
+		font-family: 'EmojiSymbols';
+		color: #fff;
+		position: absolute;
+		top: 0;
+		right: 5%;
+	}
+}
+
+@media screen and (min-width: 40em) {
+	.user-posts {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media screen and (min-width: 52em) {
+	.user-posts {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media screen and (min-width: 65em) {
+	.user-posts {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}

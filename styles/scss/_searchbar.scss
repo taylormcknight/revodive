@@ -1,16 +1,19 @@
 /* search bar */
 .search-wrapper {
-	background-image: url(/media/wes-hicks-jr7bl8PVOfw-unsplash.jpg);
+	background-image: url(/images/search.jpg);
 	background-size: cover;
 	box-sizing: border-box;
 	color: #fff;
-	padding: 4rem 1.5rem 0 1.5rem;
-	height: 40vh;
-	text-shadow: .5px .5px #000;
+	padding: 12rem 1.5rem 0 1.5rem;
+	height: 80vh;
+	text-shadow: .5px .5px #425466;
+	margin-bottom: 3rem;
 	header {
 		text-align: center;
 		h1 {
-			font-size: 2.25rem;
+			font-weight: 700;
+			color: #fff;
+			font-size: 4rem;
 			margin-bottom: 2rem;
 		}
 		.switch {
@@ -25,22 +28,23 @@
 }
 .search {
 	display: block;
-	margin: 1rem auto 1.5rem auto;
+	margin: 2rem auto 1.5rem auto;
 	text-align: center;
 	input {
+		box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.15), 0px 3px 8px rgba(0, 0, 0, 0.1) !important;
 		background-image: url(/media/search-icon.svg);
 		background-position: 10px center;
 	    background-repeat: no-repeat;
 	    background-size: 24px;
-	    border: solid 1px #bec3cd;
+	    border: solid 1px #949BAD;
 	    border-radius: 6px;
-	    color: #1D222F;
-	    font-size: 1rem;
-	    font-weight: 600;
+	    color: #425466;
+	    font-size: 1.25rem;
+	    font-weight: 400;
 		min-width: 50%;
 		max-width: 500px;
 	    outline: 0;
-	    padding: .875rem .875rem .875rem 3rem;
+	    padding: 1.125rem .875rem 1.125rem 3rem;
 		&::placeholder {
 			color: #949BAD;
 		}

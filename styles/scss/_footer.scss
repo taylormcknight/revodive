@@ -19,10 +19,9 @@ footer {
 		}
 	}
 	.footer-contents {
-		display: grid;
 	}
 	.footer-list {
-		flex-direction: column;
+		
 		margin: 0 0 1.5rem 0;
 	}
 	.footer-baseline {
@@ -38,7 +37,6 @@ footer {
 @media screen and (min-width: 40em) {
 	footer {
 		.footer-contents {
-			grid-template-columns: repeat(3, 1fr);
 		}
 	}
 }
@@ -49,7 +47,13 @@ footer {
 		max-width: 1400px;
 		margin: 0 auto;
 		.footer-contents {
-			grid-template-columns: repeat(3, 1fr);
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
+		.footer-list {
+			flex-grow: 1;
+   			flex-basis: 0;
 		}
 	}
 }

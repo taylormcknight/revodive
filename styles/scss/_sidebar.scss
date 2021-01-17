@@ -1,11 +1,16 @@
 aside {
-	border-right: solid 1px #e9ebee;
 	h3 {
 		margin-top: 2rem;
 		font-size: 1.5rem;
 	}
+	li, p {
+		font-size: .875rem;
+	}
 	li {
 		margin-bottom: 1.5rem;
+	}
+	ul {
+		list-style-type: none;
 	}
 }
 .user-info-profile {
@@ -23,7 +28,6 @@ aside {
 	}
 	.handle {
 		display: block;
-		color: #949BAD;
 	}
 	hr {
 		width: 80px;

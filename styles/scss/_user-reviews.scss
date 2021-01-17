@@ -1,0 +1,21 @@
+.user-reviews {
+	font-size: 1rem;
+	margin: 0 0 1.5rem 0;
+	color: #a6b7c6;
+	.emoji {
+		font-size: 1.5rem;
+		vertical-align: bottom;
+		margin-right: .25rem;
+	}
+	.thumbs-wrapper {
+		&.active {
+			color: #0085C6;
+		}
+		&:first-of-type {
+			margin-right: 1rem;
+		}
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}

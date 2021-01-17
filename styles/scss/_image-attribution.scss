@@ -1,0 +1,11 @@
+.image-attribution {
+	font-size: .875rem;
+	margin: .5rem 0 0 1rem;
+}
+
+@media screen and (min-width: 40em) {
+	.image-attribution {
+		font-size: .875rem;
+		margin: .5rem 0 0 2rem;
+	}
+}
