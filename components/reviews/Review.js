@@ -3,7 +3,7 @@ import PageSection from '../PageSection'
 
 const Review = (props) => (
 	<PageSection>
-		<h2>Experience Reviews</h2>
+		<h2>Trip Report</h2>
 		<div className="comment-box">
 		<form method="post">
           <div className="form-group">
@@ -24,11 +24,10 @@ const Review = (props) => (
 					<div className="reviewer-data">
 						<Link href="">
 							<a className="name" >Diver Dan</a>
-						</Link> <span>• February 2020</span>
-						<span className="comment">The Royal Springs lived up to the name! We had a great time diving.</span>
+						</Link>
+						<span className="comment">Wrapped in ribbons of turquoise and blue, it’s a wild place, the natural shoreline accented only with a few staircases to help you get to the water’s edge. Royal Springs is a beauty, a rare natural swimming hole off the beaten path along the Suwannee River.</span>
 					</div>
 				</div>
-				
 			</li>
 		</ul>
 	</PageSection>

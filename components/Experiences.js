@@ -15,8 +15,8 @@ function Experiences(props) {
                     </a>
                 </Link>
                 </span>
-            	<h2>Experiences</h2>
-                <p>Find a freediving experience</p>
+            	<h2>Nearby Experiences</h2>
+                <p>Find your next adventure</p>
             </div>
             <ImageGrid gridsize="grid-4">
                 { props.children }

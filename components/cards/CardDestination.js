@@ -4,12 +4,14 @@ import Card from './Card'
 
 const CardDestination = (props) => (
     <Card url={props.url} addclass="card--overlay">
+      <div className="image-wrapper">
         <Image 
             layout="responsive"
             width={600}
             height={400}
             src={props.image}
         />
+      </div>
        <div className="card--overlay__content-wrapper">
            <div className="card--overlay__content">
                <span className="card--overlay__content--title">{props.title}</span>

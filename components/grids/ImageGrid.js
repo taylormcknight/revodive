@@ -1,14 +1,10 @@
-import PageSectionWide from "../PageSectionWide"
-
 function ImageGrid(props) {
     return (
-    	<PageSectionWide>
-	        <div className="grid-wrapper">
-	            <ul className={"grid photo-grid " + " " + props.gridsize}>
-	                { props.children }
-	            </ul>
-	        </div>
-        </PageSectionWide>
+        <div className="grid-wrapper">
+            <ul className={"grid photo-grid " + " " + props.className}>
+                { props.children }
+            </ul>
+        </div>
     )
 }
 export default ImageGrid;

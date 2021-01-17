@@ -1,9 +1,9 @@
 import Link from 'next/link'
 
 const Suggestion = () => (
-	<Link href="/suggestions">
-	<a className="button secondary suggestion">
-	Suggest an update
+	<Link href="/suggestion">
+	<a className="button secondary suggestion small">
+	<span class="emoji">💡</span> Suggest update
 		</a>
 	</Link>
 )

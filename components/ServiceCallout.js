@@ -5,7 +5,7 @@ const ServiceCallout = () => (
   <div id="service-callout">
     <section className="grid-wrapper">
       <ul className="grid photo-grid grid-3">
-        <li className="card-media goal">
+        <li className="card goal">
           <Link href="/experiences/animal-encounters/orcas">
             <a>
             <div className="card-description-wrapper">
@@ -17,7 +17,7 @@ const ServiceCallout = () => (
             </a>
           </Link>
         </li>
-        <li className="card-media goal">
+        <li className="card goal">
           <Link href="/experiences/animal-encounters/whale-sharks">
             <a>
             <div className="card-description-wrapper">
@@ -29,7 +29,7 @@ const ServiceCallout = () => (
             </a>
           </Link>
         </li>
-        <li className="card-media goal">
+        <li className="card goal">
           <Link href="/experiences/animal-encounters/green-sea-turtles">
             <a>
             <div className="card-description-wrapper">
