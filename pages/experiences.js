@@ -9,6 +9,7 @@ import ImageGrid from '../components/grids/ImageGrid'
 function Experiences({ experiencecategories }) {
   return (
     <BasicLayout
+        PageHeader={true}
         title="Experiences"
         subtitle="Find your next freediving adventure" >
         <PageSection>

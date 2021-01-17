@@ -5,6 +5,7 @@ import PageSection from '../components/PageSection'
 function About() {
   return (
     <BasicLayout
+        PageHeader={true}
         HeroImage={true}
         hero="/images/about.jpg"
         title="About"

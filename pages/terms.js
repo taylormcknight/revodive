@@ -5,6 +5,7 @@ import PageSection from '../components/PageSection'
 function TOS() {
   return (
     <BasicLayout
+        PageHeader={true}
         HeroImage={false}
         hero="/images/about.jpg"
         title="RevoDive Terms of Service"

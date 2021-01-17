@@ -5,6 +5,7 @@ import PageSection from '../components/PageSection'
 function UGCTerms() {
   return (
     <BasicLayout
+        PageHeader={true}
         HeroImage={false}
         hero="/images/about.jpg"
         title="RevoDive Copyright Policy"

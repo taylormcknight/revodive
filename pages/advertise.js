@@ -10,6 +10,7 @@ function Advertise(props) {
     return (
         <BasicLayout 
             HeroImage={true}
+            PageHeader={true}
             hero="/images/advertise.jpg"
             title="Connect with freedivers"
             subtitle="Promote your trips, courses, and gear"
